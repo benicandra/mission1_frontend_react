@@ -48,7 +48,7 @@ const Login = () => {
           </div>
 
           <Button variant="google">
-            <img src="src/assets/googlelogo.png" alt="" />
+            <img src="/googlelogo.png" alt="" />
             Masuk dengan Google
           </Button>
         </form>
