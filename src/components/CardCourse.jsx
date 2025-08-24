@@ -30,11 +30,11 @@ export default function CourseCard({
 
         <div className="flex justify-between items-center mt-4">
           <div className="flex items-center">
-            <img src="/src/assets/starfull.png" alt="Rating" className="w-4 h-4" />
-            <img src="/src/assets/starfull.png" alt="Rating" className="w-4 h-4" />
-            <img src="/src/assets/starhalf.png" alt="Rating" className="w-4 h-4" />
-            <img src="/src/assets/starnone.png" alt="Rating" className="w-4 h-4" />
-            <img src="/src/assets/starnone.png" alt="Rating" className="w-4 h-4" />
+            <img src="/starfull.png" alt="Rating" className="w-4 h-4" />
+            <img src="/starfull.png" alt="Rating" className="w-4 h-4" />
+            <img src="/starhalf.png" alt="Rating" className="w-4 h-4" />
+            <img src="/starnone.png" alt="Rating" className="w-4 h-4" />
+            <img src="/starnone.png" alt="Rating" className="w-4 h-4" />
             <span className="text-sm text-gray-600 ml-1">
              3.5 (86)
             </span>

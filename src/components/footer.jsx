@@ -10,7 +10,7 @@ const Footer = () => { return (
     <div className="flex flex-col space-y-4 md:w-1/2">
       <div className="logo">
         <img
-          src="/src/assets/Logo.png"
+          src="/Logo.png"
           alt="Videobelajar Logo"
           className="h-10"
         />
@@ -47,7 +47,7 @@ const Footer = () => { return (
         className="text-gray-600 hover:text-gray-800 transition duration-200"
       >
         <img
-          src="/src/assets/linkedinlogo.png"
+          src="/linkedinlogo.png"
           alt="LinkedIn"
           className="h-6 w-6"
         />
@@ -57,7 +57,7 @@ const Footer = () => { return (
         className="text-gray-600 hover:text-gray-800 transition duration-200"
       >
         <img
-          src="/src/assets/facebooklogo.png"
+          src="/facebooklogo.png"
           alt="Facebook"
           className="h-6 w-6"
         />
@@ -67,7 +67,7 @@ const Footer = () => { return (
         className="text-gray-600 hover:text-gray-800 transition duration-200"
       >
         <img
-          src="/src/assets/instagramlogo.png"
+          src="/instagramlogo.png"
           alt="Instagram"
           className="h-6 w-6"
         />
@@ -77,7 +77,7 @@ const Footer = () => { return (
         className="text-gray-600 hover:text-gray-800 transition duration-200"
       >
         <img
-          src="/src/assets/twitterlogo.png"
+          src="/twitterlogo.png"
           alt="Twitter"
           className="h-6 w-6"
         />

@@ -13,21 +13,21 @@ const FilterAccordion = () => {
     {
       id: 'bidang-studi',
       title: 'Bidang Studi',
-      icon: '/src/assets/Notebook.png',
+      icon: '/Notebook.png',
       items: ['Pemasaran', 'Digital & Teknologi', 'Pengembangan Diri', 'Bisnis Manajemen'],
       type: 'checkbox'
     },
     {
       id: 'harga',
       title: 'Harga',
-      icon: '/src/assets/Shopping_Bag_01.png',
+      icon: '/Shopping_Bag_01.png',
       items: ['Pemasaran', 'Digital & Teknologi', 'Pengembangan Diri', 'Bisnis Manajemen'],
       type: 'checkbox'
     },
     {
       id: 'durasi',
       title: 'Durasi',
-      icon: '/src/assets/Clock.png',
+      icon: '/Clock.png',
       items: ['Kurang dari 4 Jam', '4 - 8 Jam', 'Lebih dari 8 Jam'],
       type: 'radio'
     }

@@ -5,40 +5,40 @@ const Beranda = () => {
 
   const courses = [
   {
-    image: "/src/assets/card-1.jpg",
-    instructorImage: "/src/assets/auth-1.png",
+    image: "/card-1.jpg",
+    instructorImage: "/auth-1.png",
   },
   {
-    image: "/src/assets/card-2.jpg",
-    instructorImage: "/src/assets/auth-2.png",
+    image: "/card-2.jpg",
+    instructorImage: "/auth-2.png",
   },
   {
-    image: "/src/assets/card-3.jpg",
-    instructorImage: "/src/assets/auth-3.png",
+    image: "/card-3.jpg",
+    instructorImage: "/auth-3.png",
   },
   {
-    image: "/src/assets/card-4.jpg",
-    instructorImage: "/src/assets/auth-4.png",
+    image: "/card-4.jpg",
+    instructorImage: "/auth-4.png",
   },
   {
-    image: "/src/assets/card-5.jpg",
-    instructorImage: "/src/assets/auth-5.png",
+    image: "/card-5.jpg",
+    instructorImage: "/auth-5.png"
   },
   {
-    image: "/src/assets/card-6.jpg",
-    instructorImage: "/src/assets/auth-6.png",
+    image: "/card-6.jpg",
+    instructorImage: "/auth-6.png",
   },
   {
-    image: "/src/assets/card-7.jpg",
-    instructorImage: "/src/assets/auth-7.png",
+    image: "/card-7.jpg",
+    instructorImage: "auth-7.png",
   },
   {
-    image: "/src/assets/card-8.jpg",
-    instructorImage: "/src/assets/auth-8.png",
+    image: "/card-8.jpg",
+    instructorImage: "/auth-8.png",
   },
   {
-    image: "/src/assets/card-9.jpg",
-    instructorImage: "/src/assets/auth-9.png",
+    image: "/card-9.jpg",
+    instructorImage: "/auth-9.png",
   },
 ];
 
@@ -48,7 +48,7 @@ const Beranda = () => {
       <section className="relative mb-16 rounded-xl overflow-hidden shadow-lg">
         <div className="absolute inset-0 bg-black opacity-70"></div>
         <img
-          src="/src/assets/hero-image.jpg"
+          src="/hero-image.jpg"
           alt="Hero Background"
           className="w-full min-h-[50vh] lg:h-96 object-cover"
         />
@@ -123,7 +123,7 @@ const Beranda = () => {
       <section className="relative rounded-xl overflow-hidden shadow-lg">
         <div className="absolute inset-0 bg-black opacity-70"></div>
         <img
-          src="/src/assets/newsletter.jpg"
+          src="/newsletter.jpg"
           alt="Newsletter Background"
           className="w-full h-80 object-cover"
         />

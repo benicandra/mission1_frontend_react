@@ -6,28 +6,28 @@ const SemuaProduk = () => {
 
   const courses = [
   {
-    image: "/src/assets/card-1.jpg",
-    instructorImage: "/src/assets/auth-1.png",
+    image: "/card-1.jpg",
+    instructorImage: "/auth-1.png",
   },
   {
-    image: "/src/assets/card-2.jpg",
-    instructorImage: "/src/assets/auth-2.png",
+    image: "/card-2.jpg",
+    instructorImage: "/auth-2.png",
   },
   {
-    image: "/src/assets/card-4.jpg",
-    instructorImage: "/src/assets/auth-4.png",
+    image: "/card-4.jpg",
+    instructorImage: "/auth-4.png",
   },
   {
-    image: "/src/assets/card-5.jpg",
-    instructorImage: "/src/assets/auth-5.png",
+    image: "/card-5.jpg",
+    instructorImage: "/auth-5.png",
   },
   {
-    image: "/src/assets/card-7.jpg",
-    instructorImage: "/src/assets/auth-7.png",
+    image: "/card-7.jpg",
+    instructorImage: "/auth-7.png",
   },
   {
-    image: "/src/assets/card-8.jpg",
-    instructorImage: "/src/assets/auth-8.png",
+    image: "/card-8.jpg",
+    instructorImage: "/auth-8.png",
   },
 ];
 
@@ -73,7 +73,7 @@ const SemuaProduk = () => {
                     <option>Rating Tertinggi</option>
                     <option>Rating Terendah</option>
                   </select>
-                  <img src="/src/assets/ArrowDown.png" alt="" className='absolute right-6 top-5'/>
+                  <img src="/ArrowDown.png" alt="" className='absolute right-6 top-5'/>
                 </div>
               </div>
 
@@ -86,7 +86,7 @@ const SemuaProduk = () => {
                     placeholder="Cari kelas..."
                     className="w-full px-4 py-2 pl-10 border border-gray-300 rounded-lg focus:ring-2 focus:ring-green-500 focus:border-transparent"
                   />
-                  <img src="/src/assets/Search.png" alt="" className='absolute left-3 top-3.5 w-4 h-4'/>
+                  <img src="/Search.png" alt="" className='absolute left-3 top-3.5 w-4 h-4'/>
 
                 </div>
               </div>

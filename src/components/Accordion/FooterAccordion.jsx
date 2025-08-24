@@ -30,7 +30,7 @@ const FooterAccordion = ({ title, links }) => {
         {title}
         {isMobile && (
           <img
-            src="/src/assets/arrow.png"
+            src="arrow.png"
             alt="Toggle"
             className={`h-5 w-5 transform transition-transform duration-200 ${isOpen ? "rotate-90" : "rotate-0"}`}
           />
