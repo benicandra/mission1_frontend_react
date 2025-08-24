@@ -1,0 +1,36 @@
+import { useState } from "react";
+
+
+
+const FormPassword = ({ label = "Kata Sandi" }) => {
+    const [isVisible, setIsVisible] = useState(false);
+
+    return (
+        <div>
+            <label
+              htmlFor="password"
+              className="block text-sm sm:text-base font-medium text-gray-500"
+              > {label} <span className="text-red-500">*</span></label
+            >
+            <div className="relative">
+              <input
+                type="password"
+                name="password"
+                id="sandi"
+                className="mt-1 block w-full border border-gray-300 rounded-md px-3 py-2 pr-10 focus:outline-none focus:ring-2 focus:ring-green-500 focus:border-transparent"
+                placeholder="••••••••"
+                required
+              />
+
+              <button
+                type="button"
+                className="absolute inset-y-0 right-0 pr-3 flex items-center text-gray-400 hover:text-gray-600 focus:outline-none focus:text-gray-600"
+              >
+                <img src="src/assets/eyeoff.png" alt="" />
+              </button>
+            </div>
+          </div>
+    );
+} ;
+
+export default FormPassword
